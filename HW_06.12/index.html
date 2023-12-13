@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<section class="container">
+			<h2 class="title">Values</h2>
+
+			<div class="form">
+				<div class="form__item">
+					<label>Number 1</label>
+					<input type="text" class="form__input input-1" />
+				</div>
+
+				<div class="form__item">
+					<label>Number 2</label>
+					<input type="text" class="form__input input-2" />
+				</div>
+
+				<div class="form__item">
+					<label>Number 3</label>
+					<input type="text" class="form__input input-3" />
+				</div>
+
+				<button class="btn" onclick="checkEquality()">
+					Проверка на одинаковые значения
+				</button>
+				<button class="btn" onclick="hasZero()">
+					Проверка наличия значения 0
+				</button>
+				<button class="btn" onclick="sameOne()">
+					Проверка на совпадение значений
+				</button>
+			</div>
+
+			<h3 class="result result-3"></h3>
+		</section>
+
+		<script src="./script/script.js"></script>
+	</body>
+</html>
